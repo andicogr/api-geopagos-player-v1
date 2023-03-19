@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: api-player-v1
+  cloud:
+    config:
+      uri: http://localhost:8888/config-server/
+      name: api-geopagos-player-v1
+  profiles:
+    active: default
+
+server:
+  port: 9920
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: player
