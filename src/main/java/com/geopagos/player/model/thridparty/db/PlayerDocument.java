@@ -1,5 +1,6 @@
 package com.geopagos.player.model.thridparty.db;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,6 +8,7 @@ import org.springframework.data.annotation.Id;
 
 @Getter
 @Setter
+@EqualsAndHashCode
 public class PlayerDocument {
 
     @Id

@@ -11,8 +11,8 @@ spring:
 
 server:
   port: 9920
-#  data:
-#    mongodb:
-#      host: localhost
-#      port: 27017
-#      database: player
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: player
